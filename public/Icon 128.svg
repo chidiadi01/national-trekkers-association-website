@@ -11,7 +11,7 @@
     </clipPath>
   </defs>
   <g id="Icon 128">
-    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="Icon-128" fill="#FFFFFF" stroke="none" />
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="Icon-128" fill="#FFFFFF" fill-opacity="0" stroke="none" />
     <g id="Vector" clip-path="url(#clip_1)">
       <use stroke="none" fill="#FFFFFF" fill-opacity="0" xlink:href="#path_2" fill-rule="evenodd" />
       <g clip-path="url(#clip_2)">
