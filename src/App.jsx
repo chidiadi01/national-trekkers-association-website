@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom";
 import Background from "./components/Background/background";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";

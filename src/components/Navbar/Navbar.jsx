@@ -5,7 +5,7 @@ const Navbar = () => {
         return (
             <div className='nav'>
                 <div className='nav-logo desktop'> <img src={logoimage}/> National Trekkers Association</div>
-                <div className='nav-logo mobile'> <img src={logoimage}/> NTA</div>
+                <div className='nav-logo mob'> <img src={logoimage}/> NTA</div>
                 <ul className='nav-menu'>
                     <li>Home</li>
                     <li>Activities</li>
