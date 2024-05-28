@@ -5,8 +5,6 @@ import Activities from './components/Activities/Activities.jsx'
 import './index.css'
 import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
 
-
-
 const router = createBrowserRouter([
   {
     path:"/",
@@ -16,9 +14,7 @@ const router = createBrowserRouter([
     path:"/activities",
     element: <Activities/>
   }
-], {
-  basename:'/national-trekkers-association-website'
-})
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
