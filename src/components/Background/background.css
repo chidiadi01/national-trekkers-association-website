@@ -1,6 +1,8 @@
 .background-container{
     height: 300px;
+    width: 100vw;
     position: absolute;
+    z-index: -5;
 
 }
 
@@ -10,18 +12,18 @@
     float: left;
     margin: 0 auto;
     padding: none;
-    position: fixed;
+    
     object-fit: cover;
-    z-index: -1;
+    z-index: -5;
     filter: brightness(70%);
 }
 @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .fade-in {
-    animation: fadeIn 700ms ease-in-out;
+    animation: fadeIn 400ms ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {
@@ -34,5 +36,6 @@
 @media screen and (max-width: 600px) {
     .background{
         height: 350px;
+        filter: brightness(65%);
       }
 }

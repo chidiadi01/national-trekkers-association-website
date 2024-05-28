@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './background.css'
 
 const slides = [
@@ -16,11 +17,34 @@ const slides = [
 ]
 
 const Background = ({heroCount, isChanged}) => {
-   
+    const [animateThis, setAnimateThis] = useState('');
+    useEffect(
+        ()=>{
+            if(heroCount===0){
+                setAnimateThis('');
+                setTimeout(() => {
+                    setAnimateThis('fade-in');
+                    console.log(animateThis);
+                }, 1);
+            }else if(heroCount===1){
+                setAnimateThis('');
+                setTimeout(() => {
+                    setAnimateThis('fade-in');
+                    console.log(animateThis);
+                }, 1);
+            }else if(heroCount===2){
+                setAnimateThis('');
+                setTimeout(() => {
+                    setAnimateThis('fade-in');
+                    console.log(animateThis);
+                }, 1);
+            }
+        }
+        ,[heroCount]);
     console.log(`The image url is ${slides[heroCount].url}  and the heroCount now is ${heroCount}.`);
     return(
         <div className='background-container'>
-            <img src={slides[heroCount].url} alt="" className='background' />
+            <img src={slides[heroCount].url} alt="" className={`background ${animateThis}`} />
         </div>        
     )
   }

@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .hero{
     margin: 0px auto;
     margin-top: 0px;
@@ -6,8 +9,9 @@
 }
 
 .hero-text{
-    font-family: 'Open Sans Regular', sans-serif;
-    font-size: 74px;
+    /*font-family: 'Open Sans Regular', sans-serif;*/
+    font-family: 'Bebas Neue', serif;
+    font-size: 92px;
     text-transform: uppercase;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
@@ -16,6 +20,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: end;
+    opacity: 0;
 }
 .hero-text p{
     margin-top: 0px;
@@ -50,30 +55,40 @@
     display: flex;
     padding-right: 100px;
 }
+.explore a{
+    margin-top: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    margin: auto;
+    justify-content: center;
+}
+.explore a:hover{
+    filter: brightness(70%);
+}
+
 .explore img{
     margin-top: 15px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     margin: auto;
     justify-content: center;
 }
-/*
-@keyframes slideIn {
-    from {margin-left: -3000px;}
-    to {margin-left: 100px;}
+
+.animate-text{
+    animation: slide 500ms ease-out;
+    opacity: 1;
 }
 
-.hero-text{
-    animation: slideIn 1000ms ease-in-out;
-}*/
-
 @keyframes slide {
-    from {transform: translateX(-5px);}
-    to {transform: translateX(0px);}
-}  
-
-.hero-text:current {
-    animation: slide 400ms ease-in-out;
-    
+    0% {
+        transform: translateX(-90px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -89,7 +104,7 @@
 
     }
   .hero-text{
-    font-size: 48px;
+    font-size: 60px;
     justify-content: start;
     height: 203px;
   }

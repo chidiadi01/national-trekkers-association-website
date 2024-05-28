@@ -2,17 +2,21 @@ import { useEffect, useState } from "react";
 import Background from "./components/Background/background";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 const App = () => {
-  const legacy = {
+  const legacy =[ {
       word: <span><span style={{color: "#FFC107"}}>LEG</span>acy?</span>,
       hmmm:<span> and sea <span style={{color: "#FFC107"}}>on foot</span></span>
-  };
+  },
+  {
+    word: <span>a <span style={{color: "#FFC107"}}>step</span> at a time</span>,
+  }];
   //FFC107 color dark
   //FFECB3 color light
   let heroData = [
-    {text1:"What is your",text2:legacy.word},
-    {text1:"Explore the world",text2:"a step at a time"},
+    {text1:"What is your",text2:legacy[0].word},
+    {text1:"Explore the world",text2:legacy[1].word},
     {text1:"The ground is your",text2:"starting point"}
   ]
   const [heroCount, setHeroCount] = useState(0);
@@ -38,6 +42,7 @@ const App = () => {
           setHeroCount={setHeroCount}
           playStatus={playStatus}
         />
+        <About />
     </div>
   )
 }
