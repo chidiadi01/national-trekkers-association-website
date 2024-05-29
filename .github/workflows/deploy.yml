@@ -29,3 +29,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          # Ensure you're using the right branch
+          publish_branch: gh-pages
+          # Optional: Clean before deploy to prevent conflicts
+          keep_files: false
