@@ -60,8 +60,8 @@ jobs:
 
       - name: Identity
         run: | 
-            git config --global user.email "you@example.com"
-            git config --global user.name "Your Name"
+            git config --global user.email "chidiadi01@outlook.com"
+            git config --global user.name "Chidiadi Anyanwu"
 
       - name: Deploy to GitHub Pages
         run:  npm run build && npx gh-pages -d dist
