@@ -38,13 +38,24 @@ jobs:
       - name: List dist directory contents
         run: ls -al dist
 
+  #    - name: Checkout to gh-pages branch
+  #      uses: actions/checkout@v2
+  #      with:
+  #          ref: gh-pages   
+  #      
+  #      -name: Delete all files from branch
+  #      run: |
+  #              rm -rf .
+  #              git add -A
+  #              git commit -m "Remove files from gh-pages branch"
+
+#        -name: Push Changes to gh-pages branch  
+#        uses: ad-m/github-push-action@v0.6.0
+#              with: 
+#                github_token:   ${{secrets.GITHUB_TOKEN}}
+#                branch: gh-pages
+
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-          keep_files: false
-#         Using the old methods          
-#       - run: | npm run 
-#                build gh-pages -d dist
+        run: | 
+         npm run build 
+         gh-pages -d dist
