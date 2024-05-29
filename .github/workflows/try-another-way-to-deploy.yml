@@ -56,4 +56,4 @@ jobs:
 #                branch: gh-pages
 
       - name: Deploy to GitHub Pages
-        run: npm install -g gh-pages@latest && npm run build && gh-pages -d dist
+        run: npm install --force gh-pages@latest && npm run build && gh-pages -d dist
