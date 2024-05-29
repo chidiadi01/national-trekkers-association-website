@@ -55,5 +55,8 @@ jobs:
 #                github_token:   ${{secrets.GITHUB_TOKEN}}
 #                branch: gh-pages
 
+      - name: Install GitHub Pages
+       run:  npm install gh-pages
+
       - name: Deploy to GitHub Pages
-        run: npm install --force gh-pages@latest && npm run build && gh-pages -d dist
+      run:  npm run build && gh-pages -d dist
