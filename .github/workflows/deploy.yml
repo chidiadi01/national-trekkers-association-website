@@ -1,5 +1,6 @@
 name: Deploy to GitHub Pages
 
+disabled: true
 on:
   push:
     branches:
