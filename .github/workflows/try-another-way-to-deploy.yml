@@ -56,6 +56,4 @@ jobs:
 #                branch: gh-pages
 
       - name: Deploy to GitHub Pages
-        run: | 
-         npm run build 
-         gh-pages -d dist
+        run: npm install gh-pages && npm run build && gh-pages -d dist
