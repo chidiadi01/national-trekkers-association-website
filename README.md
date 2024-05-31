@@ -5,6 +5,9 @@ This website is meant to serve as a way to practice and showcase my skills in we
 ## Project Description
 The project is a website for a fictional organization known as National Trekkers' Association. It tells what they do, displays the activites, people's track records and allows people to signup online, and log into their accounts. 
 
+It was deployed on GitHub Pages though not working. I don't know why:
+https://chidiadi01.github.io/national-trekkers-association-website/
+
 ## Objectives of the project
 
 In this project, I aim to incorporate things like:
