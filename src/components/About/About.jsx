@@ -8,8 +8,8 @@ class About extends Component {
         return (
             <div className='main-body' id='about'>
                 <h2>What is the NTA?</h2>
-                <p>The National Trekker's Association is an orgnaziation committed to great 
-                    <span style={{color:"#775d0e"}}> leg</span>acy. It was born out of the need to
+                <p>The National Trekkers' Association is an orgnaziation committed to great 
+                    <span style={{color:"#775d0e", textTransform:'uppercase'}}> leg</span>acy. It was born out of the need to
                      encourage people to trek more often to their destinations. It is a community of
                      enthusiastic trekkers that help by providing the skills, tools and training for enhanced trekking abilities
                       and exceptional trekking experiences. We help you gain appreciation for the power of

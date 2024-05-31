@@ -10,12 +10,12 @@ The project is a website for a fictional organization known as National Trekkers
 In this project, I aim to incorporate things like:
 
 - [x] Use the React Router
-- [] Use Redux
-- [] Write tests
-- [] Integrate Tailwind CSS
-- [] Integrate Bootstrap
-- [] Integrate the app with an API and parse data from it
-- [] Integrate CI/CD
+- [ ] Use Redux
+- [ ] Write tests
+- [ ] Integrate Tailwind CSS
+- [ ] Integrate Bootstrap
+- [ ] Integrate the app with an API and parse data from it
+- [ ] Integrate CI/CD
 
 ## What has been done so far
 
