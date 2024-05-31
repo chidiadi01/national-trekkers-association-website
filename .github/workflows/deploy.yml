@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 
-disabled: true
+
 on:
   push:
     branches:
@@ -38,6 +38,10 @@ jobs:
 
       - name: List dist directory contents
         run: ls -al dist
+      - name: Configure Git
+        run: |
+          git config --global user.name 'chidiadi01'
+          git config --global user.email 'chidiadi01@outlook.com'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -49,3 +53,4 @@ jobs:
 #         Using the old methods          
 #       - run: | npm run 
 #                build gh-pages -d dist
+          
