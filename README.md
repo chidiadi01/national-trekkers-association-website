@@ -32,3 +32,7 @@ Here are screenshots and videos of what it looks like
 
 ![Desktop video](/readme-media/NTAVid-desk.mp4)
 ![Mobile video](/readme-media/mobileNTAVid.mp4)
+
+[**1st June, 2024**](/readme-media/01-06-2024.md)
+
+I created the footer component, and integrated it with three pages.

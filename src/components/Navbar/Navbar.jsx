@@ -20,9 +20,9 @@ const Navbar = () => {
                     <ul className='nav-menu'>
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to="/activities">Activities</Link></li>
-                        <li>LEGacies</li>
-                        <li>Membership</li>
-                        <li className='nav-login'>Login</li>
+                        <li><Link to='/legacies'>LEGacies</Link></li>
+                        <li><Link to='/membership'>Membership</Link></li>
+                        <li className='nav-login'><Link to='/login'>Login</Link></li>
                     </ul>
                 </div>
                 <div className={`ham ${isActive}`} onClick={toggleActive}>
@@ -35,9 +35,9 @@ const Navbar = () => {
                                 <ul>
                                     <li><Link to='/'>Home</Link></li>
                                     <li><Link to="/activities">Activities</Link></li>
-                                    <li>LEGacies</li>
-                                    <li>Membership</li>
-                                    <li >Login</li>
+                                    <li><Link to='/legacies'>LEGacies</Link></li>
+                                    <li><Link to='/membership'>Membership</Link></li>
+                                    <li><Link to='login'>Login</Link></li>
                                 </ul>
                             </div>
                 </div>
