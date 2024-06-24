@@ -40,3 +40,4 @@ I created the footer component, and integrated it with three pages.
 [**24th June, 2024**](/readme-media/24-06-2024.md)
 
 Created the Activities page with Bootstrap.
+![Activities desktop page](/readme-media/activities-deskt.png)
