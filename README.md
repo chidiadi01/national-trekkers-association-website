@@ -16,7 +16,7 @@ In this project, I aim to incorporate things like:
 - [ ] Use Redux
 - [ ] Write tests
 - [ ] Integrate Tailwind CSS
-- [ ] Integrate Bootstrap
+- [x] Integrate Bootstrap
 - [ ] Integrate the app with an API and parse data from it
 - [ ] Integrate CI/CD
 
@@ -36,3 +36,7 @@ Here are screenshots and videos of what it looks like
 [**1st June, 2024**](/readme-media/01-06-2024.md)
 
 I created the footer component, and integrated it with three pages.
+
+[**24th June, 2024**](/readme-media/24-06-2024.md)
+
+Created the Activities page with Bootstrap.

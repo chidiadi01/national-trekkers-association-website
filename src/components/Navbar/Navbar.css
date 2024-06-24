@@ -5,19 +5,29 @@
   z-index: 3;
 }
 
-a{
+ul.nav-menu li a{
+  color:black ;
+  text-decoration: none;
+  filter:opacity(80%);
+  transition: 0.5s ease-in-out;
+}
+ul.nav-menu li a:active{
+  filter: opacity(100);
+}
+ul.nav-menu li a:hover{
+  filter: brightness(90%);
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+.menu-items ul li a{
   color:black ;
   text-decoration: none;
   filter:opacity(80%);
 }
-a:active{
-  filter: opacity(100);
-}
-
 .nav{
     font-family: 'Bona Nova', serif;
     display: flex;
-    width: 95%;
+    width: 100%;
     margin-top: 0px;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +46,7 @@ a:active{
     gap: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 .nav-logo img{
   align-items: center;

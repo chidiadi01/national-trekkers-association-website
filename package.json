@@ -1,5 +1,5 @@
 {
-  "homepage":"https://chidiadi01.github.io/national-trekkers-association-website/",
+  "homepage": "https://chidiadi01.github.io/national-trekkers-association-website/",
   "name": "national-trekkers-association",
   "private": true,
   "version": "0.0.0",
@@ -11,9 +11,10 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "hosts":"vite --host"
+    "hosts": "vite --host"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"

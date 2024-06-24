@@ -1,6 +1,10 @@
-div{
-   
+div.body{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
+
 .parent{
     position: fixed;
     top: 0px;
@@ -9,17 +13,48 @@ div{
     margin-top: 10%;
     margin-left: 3%;
     margin-right: 3%;
-    min-height: 40vh;
+    min-height: 160vh;
 }
+.card{
+    width: 30%;
+    margin-top: 2em;
+}
+.card-img-top{
+    filter: brightness(.9);
+}
+
+.btn-primary {
+    background-color: #212121;
+    border-color: #212121;
+   /* background-color: #FFC107;
+    border-color: #d6a206; */
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #FFC107;
+    border-color: #FFC107; 
+}
+
 footer{
     bottom: 0px;
 }
 
 @media screen and (max-width: 1000px) {
-
+    .card{
+        width: 48.5%;
+        margin-top: 0px;
+    }
 }
 @media screen and (max-width: 600px) {
     .activities{
         margin-top: 20%;
+        min-height: 390vh;
+    }
+    .card-container{
+        justify-content: none;
+    }
+    .card{
+        width: 100%;
+        margin-top: 0px;
     }
 }
