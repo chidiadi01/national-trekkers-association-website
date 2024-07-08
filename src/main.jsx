@@ -6,6 +6,7 @@ import Activities from './components/Activities/Activities.jsx'
 import Membership from './components/Membership/Membership.jsx'
 import Login from './components/Login/Login.jsx'
 import './index.css'
+import fourofour from './components/Fourofour/404.jsx'
 import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -23,11 +24,16 @@ const router = createBrowserRouter([
   },
   {
     path:"/membership",
-    element: <Membership/>
+    element: <Membership/>,
+    errorElement: <fourofour/>
   },
   {
     path:"/login",
     element: <Login/>
+  },
+  {
+    path:"*",
+    element: <fourofour/>
   }
 ])
 

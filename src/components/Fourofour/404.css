@@ -1,0 +1,13 @@
+h5{
+    font-weight: 600;
+    color: #FFC107;
+}
+p{
+
+}
+div.fourofour{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 50px;
+}
