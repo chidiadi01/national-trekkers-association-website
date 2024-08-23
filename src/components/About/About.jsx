@@ -12,9 +12,8 @@ class About extends Component {
                     <span style={{color:"#775d0e", textTransform:'uppercase'}}> leg</span>acy. It was born out of the need to
                      encourage people to trek more often to their destinations. It is a community of
                      enthusiastic trekkers that help by providing the skills, tools and training for enhanced trekking abilities
-                      and exceptional trekking experiences. We help you gain appreciation for the power of
                        your feet, and your superior ability to move about with a natural vehicle.
-                </p>
+               </p>
 
                 <h2>The Trekking Man</h2>
                 <div className="trekking-man"><img src="src/assets/trekking-man.jpg" alt="Stature of a man. Credits Pexels - Mike Birdy" /> </div>

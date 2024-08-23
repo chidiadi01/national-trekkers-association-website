@@ -1,13 +1,8 @@
-h5{
-    font-weight: 600;
-    color: #FFC107;
-}
-p{
-
-}
 div.fourofour{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0%;
     height: 100vh;
-    width: 50px;
+    width: 100vw;
 }
