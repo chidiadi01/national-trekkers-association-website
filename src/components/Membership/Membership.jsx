@@ -1,5 +1,6 @@
 import React from 'react';
-import './Membership.css'
+import './Membership.css';
+import Navbar from '../Navbar/Navbar';
 
 const Membership = () => {
     return (

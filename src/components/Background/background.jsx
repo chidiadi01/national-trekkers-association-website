@@ -1,20 +1,26 @@
 import { useEffect, useState } from 'react';
 import './background.css'
 
+import image1 from '../../assets/image1.jpg';
+import image2 from '../../assets/image2-2.jpg';
+import image3 from '../../assets/image3.jpg';
+
+
 const slides = [
     {
         title: "img1",
-        url: 'src/assets/image1.jpg'
+        url: image1
     },
     {
         title: "img2",
-        url: "src/assets/image2-2.jpg"
+        url: image2
     },
     {
         title: "img3",
-        url: "src/assets/image3.jpg"
+        url: image3
     }
-]
+];
+
 
 const Background = ({heroCount, isChanged}) => {
     const [animateThis, setAnimateThis] = useState('');

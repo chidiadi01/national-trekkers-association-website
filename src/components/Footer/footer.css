@@ -37,7 +37,7 @@ footer{
 }
 .site-map ul li a.is-page{
     color: #FFC107;
- }
+}
 .site-map ul li a:hover{
     filter: brightness(50%);
     transition: 0.5s ease-in-out;

@@ -3,8 +3,14 @@ import './footer.css';
 import logoimage from '/icon-circle.svg'
 import { Link } from 'react-router-dom';
 import App from '../../App';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
+
+
 
 const Footer = () => {
+
 
 
     return (
@@ -21,11 +27,11 @@ const Footer = () => {
             </div>
             <div className="site-map">
                     <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/activities'>Activities</Link></li>
-                        <li><Link to='/legacies'>LEGacies</Link></li>
-                        <li><Link to='/membership'>Membership</Link></li>
-                        <li><Link to='/login'>Login</Link></li>
+                        <li ><Link to='/' >Home</Link></li>
+                        <li ><Link to='/activities' >Activities</Link></li>
+                        <li ><Link to='/legacies' >LEGacies</Link></li>
+                        <li ><Link to='/membership' >Membership</Link></li>
+                        <li ><Link to='/login' >Login</Link></li>
                     </ul>
             </div>
             <div className="contact">

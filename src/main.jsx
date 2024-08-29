@@ -12,15 +12,18 @@ import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } fro
 const router = createBrowserRouter([
   {
     path:"/",
-    element: <App/>
+    element: <App/>,
+    errorElement: <Fourofour/>
   },
   {
     path:"/activities",
-    element: <Activities/>
+    element: <Activities/>,
+    errorElement: <Fourofour/>
   },
   {
     path:"/legacies",
-    element: <Legacies/>
+    element: <Legacies/>,
+    errorElement: <Fourofour/>
   },
   {
     path:"/membership",
@@ -29,7 +32,8 @@ const router = createBrowserRouter([
   },
   {
     path:"/login",
-    element: <Login/>
+    element: <Login/>,
+    errorElement: <Fourofour/>
   },
   {
     path:"*",
