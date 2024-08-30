@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div className='main-body' id='about'>
                 <h2>What is the NTA?</h2>
-                <p>The National Trekkers' Association is an organization committed to great 
+                <p><i>The National Trekkers' Association</i> is an organization committed to great 
                     <span style={{color:"#775d0e", textTransform:'uppercase'}}> leg</span>acy. It was born out of the need to
                      encourage people to trek more often to their destinations. It is a community of
                      enthusiastic trekkers that help by providing the skills, tools and training to enhance trekking abilities
@@ -42,9 +42,9 @@ class About extends Component {
                       For Footilius, barefooted victories were the mark of a real Hero who could brave the stony lands and thorny wildernesses in conquest.
                     </p>
                     <p>
-                      He started the School of Trudgery where he thought his philosophy of trekking. There, scholars gathered
+                      He started the <i>School of Trudgery</i> where he thought his philosophy of trekking. There, scholars gathered
                       from across the world to learn from his wisdom. It was in this sanctuary that followers erected the
-                      famous Stature of the Trekking Man.
+                      famous <i>Stature of the Trekking Man.</i>
                     </p>
 
 
