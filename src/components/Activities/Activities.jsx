@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './activities.css';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
+import cardimg from '../../assets/card-image.jpg';
 
 
 const Activities = () => {
-    const cardimg= '../../src/assets/card-image.jpg';
+    
     return (
         <div className='body'>
             <Navbar/>
