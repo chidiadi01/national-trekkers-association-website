@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './about.css'
+import trekimage from '../../assets/trekking-man.jpg'
 
 //Written by Chidiadi Anyanwu
 
@@ -16,7 +17,7 @@ class About extends Component {
                </p>
 
                 <h2>The Trekking Man</h2>
-                <div className="trekking-man"><img src="src/assets/trekking-man.jpg" alt="Stature of a man. Credits Pexels - Mike Birdy" /> </div>
+                <div className="trekking-man"><img src={trekimage} alt="Stature of a man. Credits Pexels - Mike Birdy" /> </div>
                 <p>In the early 5th century were two great thinkers. While their contemporaries pondered
                     on fickle and trivial matters like the mysteries of the cosmos and the purpose of man, these
                     extraordinary men were captivated by the art and philosophy of trekking. 
