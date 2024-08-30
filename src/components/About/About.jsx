@@ -13,20 +13,21 @@ class About extends Component {
                 <p>The National Trekkers' Association is an organization committed to great 
                     <span style={{color:"#775d0e", textTransform:'uppercase'}}> leg</span>acy. It was born out of the need to
                      encourage people to trek more often to their destinations. It is a community of
-                     enthusiastic trekkers that help by providing the skills, tools and training for enhanced trekking abilities
-                       your feet, and your superior ability to move about with a natural vehicle.
+                     enthusiastic trekkers that help by providing the skills, tools and training to enhance trekking abilities
+                     and foster the superior ability to move about with your God-given vehicle.
                </p>
 
                 <h2>The Trekking Man</h2>
                 <div className="trekking-man"><img src={trekimage} alt="Stature of a man. Credits Pexels - Mike Birdy" /> </div>
-                <p>In the early 5th century were two great thinkers. While their contemporaries pondered
-                    on fickle and trivial matters like the mysteries of the cosmos and the purpose of man, these
-                    extraordinary men were captivated by the art and philosophy of trekking. 
-                    <br/>
+                <p>Pedestro and Footilius were two great thinkers. In the early 5th century, they walked the surface of the earth.
+                  While their contemporaries pondered on fickle and trivial matters like the meaning of life and the mysteries of the cosmos, 
+                  these men were enthralled by the profound wonders of trekking.
+                    <br />
+                    <br />
 
-                   <p> One of the men, Pedestrotus, with his weathered sandals and unwavering stride, believed
+                   <p>Pedestro, with his well-trodden sandals and bony legs, believed
                      that the journey itself was the ultimate destination. He proposed that man was meant to
-                     enjoy the very act of walking, and not to think about what destination he must go.
+                     enjoy the very act of walking, and not to think of what destination he must go.
                     </p>
                     <p>
                      His philosophy is captured in this great quote of his: <blockquote>"Every step taken upon the land is 
@@ -34,15 +35,15 @@ class About extends Component {
                      divine essence of nature."</blockquote>
                     </p>
                     <p>
-                      Footoclistus, on the other hand, believed that the use of any other means of transportation
+                      Footilius, on the other hand, believed that the use of any other means of transportation
                       was a testament to your weakness as a man. He also urged his followers to venture into the unknown.
-                      He praised Alexander the Great for his adventurous mind and conquests, but criticised the fact
-                      that Alexander didn't fight on barefoot. For him, barefooted victories were the mark of a real Hero
-                      who could brave the stony lands and thorny wildernesses in conquest.
+                      He praised Alexander the Great for his adventurous mind and conquests, but suggested that his heroism was greatly diminished
+                      because he wore sandals which prevented him from planting his footprints in the sands of time.
+                      For Footilius, barefooted victories were the mark of a real Hero who could brave the stony lands and thorny wildernesses in conquest.
                     </p>
                     <p>
-                      He started the School of Tarsals where he thought his philosophy of trekking. There, scholars gathered
-                      from across the world to learn from his wisdom. In this sanctuary that followers from more recent centuries built the
+                      He started the School of Trudgery where he thought his philosophy of trekking. There, scholars gathered
+                      from across the world to learn from his wisdom. It was in this sanctuary that followers erected the
                       famous Stature of the Trekking Man.
                     </p>
 
