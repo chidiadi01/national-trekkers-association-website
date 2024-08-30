@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './about.css'
 import trekimage from '../../assets/trekking-man.jpg'
+import FictionModal from '../Modal/modal';
 
 //Written by Chidiadi Anyanwu
 
@@ -47,7 +48,7 @@ class About extends Component {
 
 
                 </p>
-            
+                <FictionModal />
             </div>
         );
     }

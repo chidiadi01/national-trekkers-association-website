@@ -6,12 +6,12 @@ import App from '../../App';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 
-
-
-
 const Footer = () => {
 
-
+//Chidiadi here! This footer has given me issues. I have been trying to use broswer location (URL path)
+// to change the colour of the anchors on the site map. It worked the first time but after some more coding, it 
+// made the site a blank page. I just had to delete all the code except for the CSS so I can succesfully
+// deploy and move forward. 30th August, 2024. Hopefully, in the future, it will make sense. It always does.
 
     return (
         <footer>

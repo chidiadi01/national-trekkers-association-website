@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   {
     path:"/",
     element: <App/>,
-    errorElement: <Fourofour/>
+    //errorElement: <Fourofour/>
   },
   {
     path:"/activities",

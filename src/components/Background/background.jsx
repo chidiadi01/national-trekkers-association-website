@@ -5,7 +5,7 @@ import image1 from '../../assets/image1.jpg';
 import image2 from '../../assets/image2-2.jpg';
 import image3 from '../../assets/image3.jpg';
 
-
+//Written by Chidiadi
 const slides = [
     {
         title: "img1",
