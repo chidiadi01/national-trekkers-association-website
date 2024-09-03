@@ -54,6 +54,7 @@ footer{
     .activities{
         margin-top: 20%;
         min-height: 390vh;
+        padding: 10px 10px 0 10px;
     }
     .card-container{
         justify-content: none;
