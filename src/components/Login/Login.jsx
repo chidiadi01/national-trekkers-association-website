@@ -5,9 +5,11 @@ import Footer from '../Footer/Footer';
 
 const Login = () => {
     return (
-        <div>
+        <div className='body'>
            <Navbar/>
-            <h1>Login</h1>
+            <div className='login-content'>
+                <h1>Login</h1>
+            </div>
             <Footer/>  
         </div>
     );

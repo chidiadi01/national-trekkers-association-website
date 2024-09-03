@@ -13,7 +13,7 @@ const Navbar = () => {
         }
     }
         return (
-            <div  className="parent" >
+            <div  className={`parent ${isActive}`} >
                 <div className={`nav ${isActive}`}>
                     <div className='nav-logo desktop'> <img src={logoimage}/> National Trekkers Association</div>
                     <div className='nav-logo mobile'> <img src={logoimage}/> N T A</div>

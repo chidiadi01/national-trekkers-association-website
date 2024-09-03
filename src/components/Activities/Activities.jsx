@@ -13,8 +13,8 @@ const Activities = () => {
         <div className='body'>
             <Navbar/>
             <div className="activities">
-            <h1>Activities</h1>
-             <div className="card-container d-flex gap-3 flex-wrap justify-content-between">
+                <h1>Activities</h1>
+                <div className="card-container d-flex gap-3 flex-wrap justify-content-between">
                 <div className='card'>
                     <img src={cardimg} class="card-img-top" alt="..."/>
                     <div className="card-body">

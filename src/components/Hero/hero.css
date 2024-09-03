@@ -101,11 +101,12 @@ html{
 @media screen and (max-width: 600px) {
     .hero{
         padding: 80px 0px 0px 10px;
+        height: 380px;
 
     }
   .hero-text{
     font-size: 60px;
     justify-content: start;
-    height: 203px;
+    height: 260px;
   }
 }

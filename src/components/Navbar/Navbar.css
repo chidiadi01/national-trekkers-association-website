@@ -78,10 +78,13 @@ ul.nav-menu li a:hover{
 /*----------------*/
 
 @media screen and (max-width: 1000px) {
-  .parent{
+  .parent.active{
     height: 100vh;
     width: 100vw;
     position: absolute;
+  }
+  .parent.inactive{
+    height: 68px;
   }
   .nav{
     width: 100vw;

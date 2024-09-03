@@ -6,10 +6,17 @@ div{
     top: 0px;
 }
 .leg{
-    margin-top: 10%;
-    margin-left: 3%;
-    margin-right: 3%;
-    min-height: 40vh;
+    margin-top: 68px;
+    padding: 10px 30px 0 30px;
+    flex:1;
+}
+.table{
+    margin-top: 5%;
+}
+.credits{
+    color:#212121;
+    font-size: 9px;
+    
 }
 footer{
     bottom: 0px;

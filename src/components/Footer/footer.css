@@ -32,13 +32,13 @@ footer{
     list-style: none;
     margin-bottom: 4%;
 }
-.site-map ul li a{
+.site-map .footerlink{
    color: white;
 }
-.site-map ul li a.is-page{
+.site-map .footerlink .is-page{
     color: #FFC107;
 }
-.site-map ul li a:hover{
+.site-map .footerlink:hover{
     filter: brightness(50%);
     transition: 0.5s ease-in-out;
  }
@@ -59,10 +59,10 @@ footer{
     font-family: 'Bona Nova';
     font-weight: 400;
 }
-.contact ul li a{
+.contact a{
    color: white;
 }
-.contact ul li a:hover{
+.contact a:hover{
     filter: brightness(50%);
     transition: 0.5s ease-in-out;
  }
@@ -109,6 +109,14 @@ footer{
         margin-top: 3%;
         padding: 0px;
     }
+
+    .site-map ul li{
+        min-height: 1em;
+        margin-bottom: 1em;
+    }
+    .site-map .footerlink{
+        color: white;
+     }
     .contact{
         width: 100%;
         margin-top: 3%;

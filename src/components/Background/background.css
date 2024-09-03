@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 600px) {
     .background{
-        height: 350px;
+        height: 387px;
         filter: brightness(65%);
       }
 }
