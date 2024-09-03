@@ -21,7 +21,7 @@ const Activities = () => {
                         <h5 className="card-title">Trek-loss</h5>
                         <p className="card-text">Trek-loss is our yearly event where we gather 
                         at an exotic island and wander aimlessly till we're lost.</p>
-                        <a href="" className="btn btn-primary">See more</a>
+                        <a href="/" className="btn btn-primary">See more</a>
                     </div>
                 </div>
                 <div className='card'>
@@ -31,7 +31,7 @@ const Activities = () => {
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
                          elit. Beatae sapiente odio, corrupti eos ex recusandae molestiae ullam tempora dolorum nesciunt
                          non nam repellendus. </p>
-                        <a href="" className="btn btn-primary">See more</a>
+                        <a href="/" className="btn btn-primary">See more</a>
                     </div>
                 </div>
                 <div className='card'>
@@ -40,7 +40,7 @@ const Activities = () => {
                         <h5 className="card-title">Leg-natomy</h5>
                         <p className="card-text">We frequently hold talks and lectures on the anatomy
                         of the leg and foot, and how to take care of your legs for more on-foot adventures.</p>
-                        <a href="" className="btn btn-primary">See more</a>
+                        <a href="/" className="btn btn-primary">See more</a>
                     </div>   
                 </div>
                 <div className='card'>
@@ -49,7 +49,7 @@ const Activities = () => {
                         <h5 className="card-title">Brisk-Walkathon</h5>
                         <p className="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Aut, fugiat explicabo blanditiis facere, erro</p>
-                        <a href="" className="btn btn-primary">See more</a>
+                        <a href="/" className="btn btn-primary">See more</a>
                     </div>
                 </div>
                 <div className='card'>
@@ -59,7 +59,7 @@ const Activities = () => {
                         <p className="card-text">Lorem, ipsum dolor sit amet consectetur 
                         adipisicing elit. Suscipit natus eveniet voluptatibus mollitia quidem dolorem.
                          Voluptatem recusandae consequuntur doloremque adipisci!</p>
-                        <a href="" className="btn btn-primary">See more</a>
+                        <a href="/" className="btn btn-primary">See more</a>
                     </div>
                 </div>
                 <div className='card'>
