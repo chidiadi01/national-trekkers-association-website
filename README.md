@@ -8,6 +8,9 @@ The project is a website for a fictional organization known as National Trekkers
 It was deployed on GitHub Pages though not working. I don't know why:
 https://chidiadi01.github.io/national-trekkers-association-website/
 
+WORKING DEPLOYMENT HERE AT: https://national-trekkers-association-website.vercel.app/ 
+It is not yet complete!
+
 ## Objectives of the project
 
 In this project, I aim to incorporate things like:
