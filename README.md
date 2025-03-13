@@ -20,7 +20,7 @@ In this project, I aim to incorporate things like:
 - [ ] Write tests
 - [ ] Integrate Tailwind CSS
 - [x] Integrate Bootstrap
-- [ ] Integrate the app with an API and parse data from it
+- [x] Integrate the app with an API and parse data from it
 - [ ] Integrate CI/CD
 
 ## What has been done so far
