@@ -1,4 +1,10 @@
-body{
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   width: 100%;
   margin: 0;
   padding: 0;
